@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    
+    text-align: center;
+    margin-bottom: 4rem;
+    color:rgb(13, 230, 13);
+}
+.counter {
+
+    height:20rem;
+    width: 35rem;
+}
+
+.result{
+
+    height:4rem;
+    width:7rem;
+    text-align: center;
+    margin:auto;
+    margin-top: 2rem;
+}
+
+#counterValue {
+    margin-top: 0.5rem;
+    color:rgb(236, 157, 10);
+}
+
+.buttons {
+
+    height:8rem;
+    width:30rem;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#Increment{
+
+    height:3.5rem;
+    width:8rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(8, 8, 140);
+    font-size: 1.5rem;
+    cursor:pointer;
+    transition:0.5s ease-in;
+    color:#fff;
+}
+
+#Increment:hover {
+    background-color: rgb(59, 59, 240);
+}
+
+#Decrement{
+
+    height:3.5rem;
+    width:8rem;
+    border-radius:5px;
+    background-color: rgb(8, 8, 140);
+    font-size: 1.5rem;
+    cursor:pointer;
+    transition:0.5s ease-in;
+    color:#fff;
+}
+
+#Decrement:hover {
+    background-color: rgb(59, 59, 240);
+}
+
+#Reset{
+
+    height:3.5rem;
+    width:8rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(8, 8, 140);
+    font-size: 1.5rem;
+    cursor:pointer;
+    transition:0.5s ease-in;
+    color:#fff;
+}
+
+#Reset:hover {
+    background-color: rgb(59, 59, 240);
+}
+
