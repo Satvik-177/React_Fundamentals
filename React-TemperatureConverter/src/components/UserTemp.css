@@ -1,0 +1,88 @@
+.temp-converter{
+    height:100vh;
+    width:100vw;
+    border:2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(45deg,rgb(204, 15, 204),rgb(15, 245, 233));
+}
+
+#converter-interface{
+    height:40rem;
+    width:40rem;
+    border:2px solid green;
+    background-color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    color:#222;
+}
+
+.input-fields input{
+    height:5rem;
+    width: 35rem;
+    border: 2px solid violet;
+    font-size: 1.5rem;
+    padding:1.5rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    outline:none;
+    border-radius: 2rem;
+}
+.input-fields select{
+    height:5rem;
+    width: 35rem;
+    border: 2px solid violet;
+    font-size: 1.5rem;
+    padding:1.5rem;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    outline:none;
+    border-radius: 2rem;
+}
+
+#convert{
+    height:5rem;
+    width: 15rem;
+    cursor:pointer;
+    background-color:rgb(101, 47, 238);
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    transition:transform 0.2s ease-in;
+}
+#convert:hover{
+    transition:0.5s ease-in;
+    transform:scale(1.1);
+    background-color: rgb(110, 110, 237);
+}
+/* #ans{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    font-size: 1.8rem; */
+    /* visibility:hidden; */
+/* }
+
+#ans-temp{
+    font-size: 1.8rem;
+    margin-left:1rem;
+} */
+
+#ans {
+    font-size: 1.5rem;
+    align-items: center; 
+    margin-top: 3rem;
+    margin-left: 1.6rem;
+}
+
+#ans-temp {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    margin-left: 0.3rem;
+}
